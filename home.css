@@ -1,9 +1,11 @@
 body {
-    background-color: #0F3B25;
+    background-color: #193830;
+    font-family: cursive;
+    font-weight: medium;
 }
 
 .navbar{
-    background-color: #0F3B25!important;
+    background-color: #193830!important;
 }
 
 .nav-link {
@@ -13,3 +15,16 @@ body {
 .nav-link:hover {
     opacity: 0.5;
   }
+.btn.btn-outline-secondary{
+    color: silver!important;
+    border-color:silver!important;
+    ;
+
+}
+.col-10{
+    text-align: center;
+    margin-left: 6%;
+}
+.card.bg-dark{
+    color: silver;
+}

@@ -9,20 +9,20 @@
     <link rel="stylesheet" href="home.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">
             <img src="images/Slytherin-Logo.png" width="60" height="35" class="d-inline-block align-top" alt="">
           </a>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="#">Sobre Nós</a>
+                <a class="nav-link" href="#card-1">Sobre Nós</a>
               </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Nossas Conquistas</a>
+              <a class="nav-link" href="#card-2">Características</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Nossos Estudantes</a>
+              <a class="nav-link" href="#card-3">Nossos Estudantes</a>
             </li>
           </ul>
         </div>
@@ -30,15 +30,75 @@
       </nav>
 
       <div class="card bg-dark">
-        <img src="images/245599168b1089cf98b33adacdf2d88e.png" class="card-img" alt="...">
-        <div class="card-img-overlay">
-          <h1 class="card-title">Bem-Vindos a Casa Sonserina</h1>
-          <div class="col-10">
-            <h4 class="card-text">A Sonserina, fundada por Salazar Slytherin, é uma das quatro casas da Escola de Magia e Bruxaria de Hogwarts. Ao estabelecer a casa, Salazar instruiu o Chapéu Seletor a escolher somente alunos que obtivessem algumas de suas características particulares as quais ele prezava. Entre elas incluem a astúcia, desenvoltura, liderança e ambição. Vários membros da Sonserina possuem uma certa tendência em formar grupos, muitas vezes adquirindo líderes, o que exemplifica ainda mais as qualidades ambiciosas de Slytherin.</h4>
 
+
+        <img src="images/245599168b1089cf98b33adacdf2d88e.png" class="card-img">
+        <div class="card-img-overlay">
+          <div id="shield">
+            <img src="images/___1_-removebg-preview.png" id="imgshield">
           </div>
+          <div id="card-1" class="pt-5">
+            <div class="card mb-3 bg-transparent" style="max-width: 540px;">
+            </div>
+            <h1 class="card-title">Bem-Vindos a Casa Sonserina,</h1>
+            <div class="row row-cols-2">
+              <h3 class="card-text col-9">fundada por Salazar Slytherin, é uma das quatro casas da Escola de Magia e Bruxaria de Hogwarts. Ao estabelecer a casa, Salazar instruiu o Chapéu Seletor a escolher somente alunos que obtivessem algumas de suas características particulares as quais ele prezava. Entre elas incluem a astúcia, desenvoltura, liderança e ambição. Vários membros da Sonserina possuem uma certa tendência em formar grupos, muitas vezes adquirindo líderes, o que exemplifica ainda mais as qualidades ambiciosas de Slytherin. O animal emblemático da casa é uma serpente, suas cores são verde e prata e o fantasma patrono da casa é o Barão Sangrento.</h3>
+              <div class="col-auto">
+                <img id="gifsalazar"  src="images/salazar.gif">
+              </div>
+              <h3 id="citseletor">"Ou quem sabe a Sonserina será a sua casa
+                E ali fará seus verdadeiros amigos,
+                Homens de astúcia que usam quaisquer meios
+                Para atingir os fins que antes colimaram."
+                — O Chapéu Seletor</h3>
+            </div>
+          </div>
+          
+            <img id="basilisco" src="images/nagini.gif">
+          
+          <div id="card-2"  class="pt-5">  
+            <h1 class="card-title" style="margin-left: 28%; margin-bottom: 3%;">O que faz de nós quem somos</h1>
+            <div class="col-10">
+            <ul>
+              <li style="font-size: 40px; color: silver;">
+                <h3 class="card-text">Ambição, ao contrário do que muitos pensam, nada tem a ver com soberba ou arrogância, a ambição é a vontade e determinação de perseguir e alcançar seus objetivos com obstinação</h3>
+              </li>
+            </ul>
+              
+            <ul>
+              <li style="font-size: 40px; color: silver;">
+                <h3 class="card-text">Orgulho é um traço de personalidade marcante nos membros da casa. Mas quando falamos de orgulho, não é nada negativo, e sim um apreço pessoal às suas realizações e conquistas que é saudável e o impulsiona a ir além.</h3>
+              </li>
+            </ul>
+
+            <ul>
+              <li style="font-size: 40px; color: silver;">
+                <h3 class="card-text">Inteligência, apesar da Corvinal ser mais reconhecida por essa característica, a casa tem em seu histórico grandes e ilustres bruxos, muitos deles considerados entre os maiores de seus tempos, como Merlin, ou mesmo Voldemort.</h3>
+              </li>
+            </ul>
+
+            <ul>
+              <li style="font-size: 40px; color: silver;">
+                <h3 class="card-text">A astúcia é um dos traços de personalidade mais marcantes entre os membros da Sonserina. Membros da casa sabem ler o mundo ao seu redor e agem com destreza, tomando decisões rápidas, mas certeiras para evitar qualquer situação desagradável.
+                </h3>
+              </li>
+            </ul>
+              
+            </div>
+          </div>
+          
+          <div id="card-3"  class="pt-5">  
+            <h1 class="card-title" style="margin-left: 15%;">Nossos Estudantes</h1>
+            <div class="col-10">
+            </div>
+          </div>
+
         </div>
       </div>
+
+      <div class="card-footer text-muted">
+        Footer aqui
+      </div>  
 
 
       <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

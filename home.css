@@ -18,13 +18,53 @@ body {
 .btn.btn-outline-secondary{
     color: silver!important;
     border-color:silver!important;
-    ;
-
 }
 .col-10{
     text-align: center;
     margin-left: 6%;
 }
 .card.bg-dark{
+    color: #bea67c;
+}
+.card-text{
     color: silver;
+    font-size: 40px;
+    -webkit-text-stroke: 0.6px #000;
+    text-align: center;
+   
+}
+.card-title{
+    color: #bea67c;
+    font-size: 50px;
+    -webkit-text-stroke: 0.6px #000;
+}
+
+.card-img{
+    height: 260em;
+    filter: brightness(60%);
+}
+#card-3{
+    margin-top: 8%;
+}
+#gifsalazar{
+    width:  350px!important;
+    height: 500px;
+    border-radius: 70px;
+}
+#basilisco{
+    margin-top: 5%;
+    width: 100%;
+}
+#citseletor{
+    margin-left: 12%;
+    text-align: center;
+}
+#shield{
+    display: flex;
+    justify-content: center;
+    height: 60em;
+    align-items: center;
+}
+#imgshield{
+    height: 50em;
 }

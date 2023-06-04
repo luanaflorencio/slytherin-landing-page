@@ -40,7 +40,7 @@ body {
 }
 
 .card-img{
-    height: 260em;
+    height: 300em;
     filter: brightness(60%);
 }
 #card-3{
@@ -67,4 +67,50 @@ body {
 }
 #imgshield{
     height: 50em;
+}
+#merlin{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+.about{
+    font-weight: medium;
+}
+#phineas{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+#tom{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+#snape{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+#bella{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+#cisa{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+#andromeda{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+#draco{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+p{
+    color: silver;
 }

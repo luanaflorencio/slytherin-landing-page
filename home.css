@@ -114,3 +114,18 @@ body {
 p{
     color: silver;
 }
+.card-footer{
+    color: silver;
+}
+strong{
+    color: #bea67c;
+}
+.icons-1{
+    margin-left: 83%;
+}
+.icons-3{
+    padding-left: 0.8%;
+}
+.icons-2{
+    padding-left: 1%;
+}

@@ -47,16 +47,17 @@ body {
     margin-top: 8%;
 }
 #gifsalazar{
-    width:  350px!important;
+    width:  370px!important;
     height: 500px;
     border-radius: 70px;
+    margin-left: 15%;
 }
 #basilisco{
     margin-top: 5%;
     width: 100%;
 }
 #citseletor{
-    margin-left: 12%;
+    margin-left: 9%;
     text-align: center;
 }
 #shield{

@@ -50,11 +50,12 @@ body {
     width:  370px!important;
     height: 500px;
     border-radius: 70px;
-    margin-left: 15%;
+    margin-left: 11%;
 }
-#basilisco{
+#nagini{
     margin-top: 5%;
-    width: 100%;
+    margin-left: 5%;
+    width: 90%;
 }
 #citseletor{
     margin-left: 9%;

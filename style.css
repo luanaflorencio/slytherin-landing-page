@@ -40,7 +40,7 @@ body {
 }
 
 .card-img{
-    height: 300em;
+    height: 305em;
     filter: brightness(60%);
 }
 #card-3{
@@ -128,4 +128,30 @@ strong{
 }
 .icons-2{
     padding-left: 1%;
+}
+.img-form{
+    filter: brightness(50%);
+}
+#name{
+    width: 30%;
+    height: 45px;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    border-radius: 10px;
+
+}
+#email{
+    width: 30%;
+    height: 45px;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    border-radius: 10px;
+
+}
+#msg{
+    width: 30%;
+    height: 80px;
+    border-radius: 10px;
+    margin-top: 1%;
+    margin-bottom: 2%;
 }

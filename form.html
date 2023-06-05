@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Slytherin</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="home.html">
+            <img src="images/Slytherin-Logo.png" width="60" height="35" class="d-inline-block align-top">
+          </a>
+      </nav>
+
+      <div class="card bg-dark">
+        <img class="img-form" src="images/Slytherin crest (1).jpeg">
+        <div class="card-img-overlay col-10" style="margin-top: 7%;">
+            <h1 class="card-title" style="margin-bottom: 4%;">Gostaria de nos mandar alguma sugestão, crítica, ou apenas falar conosco? Mande sua mensagem preenchendo os dados abaixo: </h1>
+          <form id="myForm">
+            <label class="card-text">Qual seu nome?</label><br>
+            <input id="name" autocomplete="off" type="text" placeholder="Nome"><br>
+
+            <label class="card-text">Seu Email?</label><br>
+            <input autocomplete="off" id="email" type="email" placeholder="E-mail"><br>
+
+            <label class="card-text">Deixe sua mensagem:</label><br>
+            <textarea autocomplete="off" id="msg" placeholder="Mensagem"></textarea><br>
+
+            <button type="button" id="button" class="btn btn-outline-secondary">Enviar</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="card-footer">
+        House's Slytherin
+        <a target="_blank" href="https://instagram.com/slytherin_houses?igshid=MzRlODBiNWFlZA==">
+          <img class="icons-1" src="images/instagram.png">
+        </a>
+
+        <a target="_blank" href="https://twitter.com/housesslytherin">
+          <img class="icons-2" src="images/twitter.png">
+        </a>
+
+        <a target="_blank" href="https://www.youtube.com/watch?v=bu60uvXG0bM">
+          <img class="icons-3" src="images/youtube.png">
+        </a>
+      </div>  
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script></body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <script>
+      $( "#button" ).on( "click", function() {
+        $('#myForm input').val("");
+        $('#msg').val("");
+        alert("Enviado!")
+      } );
+    </script>
+
+</body>
+</html>
